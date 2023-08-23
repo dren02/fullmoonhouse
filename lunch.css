@@ -42,3 +42,33 @@ body {
 .maroon_text {
     color: maroon;
 }
+
+.row {
+    /* equal height of children; by default, items stack side-by-side in a row */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem;
+    background-color: black;
+    font-size: 18px;
+}
+
+.locn {
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.hr {
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a[href^="tel:"] {
+    color: white;
+    text-decoration: underline;
+}

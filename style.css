@@ -75,7 +75,6 @@ body {
     align-items: center;
     font-size: x-large;
     font-family: "Gill Sans", sans-serif;
-    /* position: absolute; allows object to be placed in exact location */
 }
 
 .dropdown-content {

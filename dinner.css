@@ -6,7 +6,6 @@ body {
 }
 
 .box {
-    /* background-image: url(https://img.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-color: maroon;
@@ -28,7 +27,8 @@ body {
     margin: 0 auto;
     background-color: rgb(251, 227, 227);
     width: 80%;
-    padding-top: 1px;
+    padding-bottom: 1px;
+    /* fills in leftover space */
 }
 
 h2 {
@@ -95,6 +95,10 @@ p {
     font-size: larger;
 }
 
+.kids {
+    margin-bottom: 6rem;
+}
+
 .dots {
     font-weight: 700;
     font-size: x-large;
@@ -113,10 +117,33 @@ p {
     color: maroon;
 }
 
-.end {
-    font-size: 25px;
-    color: white;
+.row {
+    /* equal height of children; by default, items stack side-by-side in a row */
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2rem;
+    background-color: black;
+
+}
+
+.locn {
+    width: 50%;
     text-align: center;
     background-color: black;
-    margin-top: 6rem;
+    color: white;
+
+}
+
+
+.hr {
+    width: 50%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+a[href^="tel:"] {
+    color: white;
+    text-decoration: underline;
 }
