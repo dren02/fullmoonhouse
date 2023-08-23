@@ -1,0 +1,122 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+.box {
+    /* background-image: url(https://img.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: maroon;
+}
+
+.heading1 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    width: 97.21%;
+    border: none;
+    padding: 20px;
+
+}
+
+.mainbox {
+    margin: 0 auto;
+    background-color: rgb(251, 227, 227);
+    width: 80%;
+    padding-top: 1px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    /* margin-top: 1.5rem; */
+    color: maroon;
+    font-size: 1.8rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: auto;
+    line-height: 30px;
+    font-size: 1.4rem;
+
+}
+
+.left {
+    background-color: antiquewhite;
+    text-align: right;
+    width: 50%;
+    float: left;
+    line-height: 30px;
+    font-size: 1.3rem;
+    margin-bottom: auto;
+    /* margin-left: 5rem; */
+
+}
+
+.right {
+    background-color: antiquewhite;
+    text-align: left;
+    width: 50%;
+    /* margin-right: 5rem; */
+    float: right;
+    line-height: 30px;
+    font-size: 1.3rem;
+    margin-bottom: auto;
+}
+
+.subtitle {
+    text-align: center;
+    /* border: 1px solid blueviolet; */
+}
+
+.srfr {
+    text-align: center;
+    font-style: italic;
+    color: maroon;
+    font-size: larger;
+}
+
+.dots {
+    font-weight: 700;
+    font-size: x-large;
+    color: maroon;
+    text-align: center;
+}
+
+.spicey {
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: maroon;
+}
+
+.maroon_text {
+    color: maroon;
+}
+
+.end {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 6rem;
+}

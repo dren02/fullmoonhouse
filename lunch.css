@@ -1,0 +1,44 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0;
+}
+
+
+.heading {
+    color: white;
+    text-align: center;
+    background-image: url(https://img.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
+    background-size: cover;
+    position: relative;
+    width: 98.6%;
+    border: none;
+    padding: 10px;
+}
+
+.menu {
+    text-align: center;
+    line-height: 3em;
+    font-size: 25px;
+    padding: 20px;
+    border: 50px solid maroon;
+    background-color: rgb(251, 227, 227);
+}
+
+.spice {
+    color: darkred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.end {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.maroon_text {
+    color: maroon;
+}
