@@ -34,8 +34,7 @@ body {
 h2 {
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 0;
-    /* margin-top: 1.5rem; */
+    margin-bottom: .5rem;
     color: maroon;
     font-size: 1.8rem;
 }
@@ -145,6 +144,6 @@ a[href^="tel:"] {
 
 @media only screen and (max-width: 1250px) {
     .heading1 {
-        width: 95.9%; 
+        width: 95.9%;
     }
-}
+} 

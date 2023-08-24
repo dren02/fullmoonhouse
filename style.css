@@ -42,7 +42,7 @@ body {
 
 .message {
     position: absolute;
-    left: 10%; 
+    left: 10%;
     top: 65%;
     transform: translateY(-50%);
     font-size: 30px;
@@ -51,14 +51,14 @@ body {
 
 /* formatting */
 .dropdown {
-    left: 9.5%; 
+    left: 9.5%;
     top: 76%;
     transform: translateY(-50%);
     position: absolute;
     display: inline-block;
 }
 
-/* cited - https://www.w3schools.com/ */
+/* cited: https://www.w3schools.com/ */
 .dropbtn {
     width: 9rem;
     cursor: pointer;
@@ -106,6 +106,8 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #f0531f;
 }
+
+/* @ https://www.w3schools.com/ */
 
 a:link {
     color: white;
@@ -166,6 +168,7 @@ p {
     text-align: center;
     width: 100%;
     bottom: 0;
+
 }
 
 a[href^="tel:"] {
@@ -174,6 +177,7 @@ a[href^="tel:"] {
 }
 
 @media only screen and (max-width: 1250px) {
+
     /* when a screen is at ___px or below, will follow code below:   */
     .slide2 img {
         top: 5in;
@@ -189,7 +193,7 @@ a[href^="tel:"] {
         /* this is half the height of div*/
         margin-left: -100px;
         top: 1in;
-        
+
     }
 }
 
