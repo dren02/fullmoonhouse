@@ -148,10 +148,7 @@ a[href^="tel:"] {
 }
 
 @media only screen and (max-width: 1250px) {
-
-    /* when a screen is at 400px or below, will follow code below:   */
     .heading1 {
-        background-color: blue;
         width: 95.9%; 
     }
 }
