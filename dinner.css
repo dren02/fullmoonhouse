@@ -68,7 +68,6 @@ p {
     line-height: 30px;
     font-size: 1.3rem;
     margin-bottom: auto;
-    /* margin-left: 5rem; */
 
 }
 
@@ -76,7 +75,6 @@ p {
     background-color: antiquewhite;
     text-align: left;
     width: 50%;
-    /* margin-right: 5rem; */
     float: right;
     line-height: 30px;
     font-size: 1.3rem;
@@ -130,7 +128,6 @@ p {
 .locn {
     width: 50%;
     text-align: center;
-    background-color: black;
     color: white;
 
 }
@@ -138,7 +135,6 @@ p {
 .hr {
     width: 50%;
     text-align: center;
-    background-color: black;
     color: white;
 }
 
