@@ -83,6 +83,10 @@ p {
     margin-bottom: auto;
 }
 
+.spec{
+    display: flex;
+}
+
 .subtitle {
     text-align: center;
     /* border: 1px solid blueviolet; */
