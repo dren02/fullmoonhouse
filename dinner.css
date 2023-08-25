@@ -9,6 +9,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: maroon;
+    display: flex; /* parent, equal height */
+    flex-direction: column;
+  
 }
 
 .heading1 {
@@ -17,7 +20,7 @@ body {
     background-color: black;
     background-size: cover;
     position: relative;
-    width: 97.21%;
+    /* flex: 1; child element, for equal width; */
     border: none;
     padding: 20px;
 
@@ -141,9 +144,3 @@ a[href^="tel:"] {
     color: white;
     text-decoration: underline;
 }
-
-@media only screen and (max-width: 1250px) {
-    .heading1 {
-        width: 95.9%;
-    }
-} 

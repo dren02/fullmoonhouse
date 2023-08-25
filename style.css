@@ -106,7 +106,6 @@ body {
 .dropdown:hover .dropbtn {
     background-color: #f0531f;
 }
-
 /* @ https://www.w3schools.com/ */
 
 a:link {
@@ -162,13 +161,12 @@ p {
     font-size: 20px;
 }
 
-.copy {
+footer {
     color: black;
     position: absolute;
-    text-align: center;
-    width: 100%;
+    text-align:center;
     bottom: 0;
-
+    width: 100%;
 }
 
 a[href^="tel:"] {
@@ -177,7 +175,6 @@ a[href^="tel:"] {
 }
 
 @media only screen and (max-width: 1250px) {
-
     /* when a screen is at ___px or below, will follow code below:   */
     .slide2 img {
         top: 5in;
@@ -193,7 +190,6 @@ a[href^="tel:"] {
         /* this is half the height of div*/
         margin-left: -100px;
         top: 1in;
-
     }
 }
 
@@ -201,11 +197,15 @@ a[href^="tel:"] {
     .hl {
         display: none;
     }
+}
 
-    .slide1 h2 {
-        width: 100%;
-        text-align: left;
-        min-width: 19rem;
-
+@media only screen and (max-width: 390px) {
+    .slide2 img {
+        top: 4.5in;
+        right: .01in;
+        max-width: 100%;
+        margin: auto;
     }
 }
+
+

@@ -6,6 +6,10 @@ body {
     padding: 0;
 }
 
+.box {
+    display: flex;
+    flex-direction: column;
+}
 
 .heading {
     color: white;
@@ -13,7 +17,6 @@ body {
     background-image: url(https://img.freepik.com/free-vector/background-template-with-chinese-patterns-red_1308-38164.jpg);
     background-size: cover;
     position: relative;
-    width: 98.6%;
     border: none;
     padding: 10px;
 }
