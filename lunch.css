@@ -75,3 +75,11 @@ a[href^="tel:"] {
     color: white;
     text-decoration: underline;
 }
+
+a {
+    color: maroon;
+}
+
+h3 {
+    line-height: 2rem;
+}
