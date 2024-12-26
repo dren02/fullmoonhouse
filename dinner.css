@@ -126,7 +126,7 @@ p {
     color: maroon;
 }
 
-.row {
+footer {
     /* equal height of children; by default, items stack side-by-side in a row */
     display: flex;
     justify-content: center;

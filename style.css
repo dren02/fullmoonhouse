@@ -1,172 +1,97 @@
-body {
-    font-family: "Gill Sans";
+*,
+*:before,
+*:after {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0;
-
+    margin: 0;
+    border: none;
 }
 
-.box {
-    width: 100%;
-    height: 100vh;
-    overflow-y: scroll;
+body {
+    font-family: Gill Sans, sans-serif !important;
 }
 
-.page {
+.nav-item {
+    font-size: 18px !important;
+}
+
+.navbar {
+    padding: 20px !important;
+}
+
+.nav-link {
+    color: white !important; /* Makes the text white */
+}
+
+.nav-link:hover {
+    color: lightgray !important; /* Optional: Changes color on hover */
+}
+
+#slide1 {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    gap: 50px;
+    max-height: 45rem;
     position: relative;
 }
 
-.slide1 {
-    align-items: start;
-    justify-content: space-between;
-    color: white;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(162, 49, 0, 0.73)), url(https://img.pikbest.com/backgrounds/20190417/chinese-style-ancient-culture-background_1806579.jpg!w10240);
-    background-size: contain;
-    text-align: center;
-    background-color: black;
-    background-repeat: no-repeat;
-    background-position: center top 120px;
-
-}
-
-.hl {
-    position: absolute;
-    top: 10px;
-    right: 5px;
-    font-size: 15px;
-}
-
-.message {
-    position: absolute;
-    left: 10%;
-    top: 65%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    text-align: left;
-}
-
-/* formatting */
-.dropdown {
-    left: 9.5%;
-    top: 76%;
-    transform: translateY(-50%);
-    position: absolute;
-    display: inline-block;
-}
-
-/* cited: https://www.w3schools.com/ */
-.dropbtn {
-    width: 9rem;
-    cursor: pointer;
-    background-color: darkorange;
-    color: white;
-    /* 1rem unit = 16px */
-    height: 4rem;
-    margin: 10px;
-    border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    font-family: "Gill Sans", sans-serif;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: black;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #f0531f;
-}
-/* @ https://www.w3schools.com/ */
-
-a:link {
-    color: white;
-    text-decoration: none;
-}
-
-a:visited {
-    color: white;
-}
-
-a:hover {
-    color: blue;
-}
-
-a:active {
-    color: purple;
-}
-
-.slide1 h2 {
-    padding: 40px;
-    margin-top: 0%;
-}
-
 .cr {
-
-    font-size: 16px;
+    font-size: 13px;
 }
 
-.slide2 {
-    align-items: start;
-    background: linear-gradient(454deg, #ffffff, #ffffff);
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.slide2 img {
-    position: absolute;
-    top: 2in;
-    right: .5in;
-    width: 650px;
-
-}
-
-.block {
-    position: absolute;
-    text-align: center;
-    color: black;
-    /* border: 10px solid wheat; */
-    top: 2in;
-    left: 3in;
-}
-
-p {
-    font-size: 20px;
-}
-
-footer {
-    color: black;
-    position: absolute;
-    text-align:center;
-    bottom: 0;
+.gradient {
+    height: 100%;
     width: 100%;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(75, 22, 0, 0.73), transparent);
+}
+
+.drawing {
+    width: 100%;
+    max-height: 45rem;
+    object-fit: cover;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(0%, -50%);
+    color: rgb(244, 237, 237);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.content h1 {
+    font-style: italic;
+    color: rgb(248, 250, 249) !important;
+}
+
+#maroon-box {
+    background: rgb(54,0,0);
+    background: linear-gradient(180deg, rgba(54,0,0,1) 0%, rgba(125,42,26,1) 100%); 
+    width: 100%; 
+    height: 155px; 
+}
+
+#details {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    text-align: center;
+    margin-bottom: 10rem;
+    margin-top: 10rem;
+}
+
+#details p {
+    font-size: 20px;
+
+}
+
+#location {
+    margin-bottom: 5rem;
 }
 
 a[href^="tel:"] {
@@ -174,38 +99,52 @@ a[href^="tel:"] {
     text-decoration: underline;
 }
 
-@media only screen and (max-width: 1250px) {
-    /* when a screen is at ___px or below, will follow code below:   */
-    .slide2 img {
-        top: 5in;
-        right: .01in;
-        max-width: 100%;
-        margin: auto;
-    }
+.vertical-space {
+    margin-top: 2rem;
+}
 
-    .block {
-        top: 50%;
-        left: 42%;
-        margin-top: -50px;
-        /* this is half the height of div*/
-        margin-left: -100px;
-        top: 1in;
+.contacts {
+    flex: 1 0 50%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contacts p {
+    font-size: 20px;
+}
+
+.map {
+    flex: 1 0 50%;
+    box-sizing: border-box;
+    height: 32rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(18, 18, 18);
+    text-align: center;
+    color: white;
+    padding: 2.5rem;
+    font-size: 1rem;
+}
+
+@media (max-width: 700px) {
+    iframe {
+        height: 20rem;
     }
 }
 
-@media (max-width: 556px) {
-    .hl {
-        display: none;
+@media (max-width: 650px) {
+    .content {
+        margin-top: 15rem;
+    }
+    
+    #maroon-box {
+        height: 480px;
     }
 }
-
-@media only screen and (max-width: 390px) {
-    .slide2 img {
-        top: 4.5in;
-        right: .01in;
-        max-width: 100%;
-        margin: auto;
-    }
-}
-
-
